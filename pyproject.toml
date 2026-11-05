@@ -1,0 +1,14 @@
+[project]
+name = "xml-character-reference-lib"
+version = "0.1.0"
+description = "Converts XML decimal and hexadecimal character references in a string to characters."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
